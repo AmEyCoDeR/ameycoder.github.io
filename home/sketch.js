@@ -1,4 +1,5 @@
 var openo = false;
+var imgstage = 1;
 
 document.getElementById("hamburger").addEventListener("click",function(){
     if(openo === false){
@@ -11,3 +12,15 @@ document.getElementById("hamburger").addEventListener("click",function(){
         console.log("myau");
     }
 });
+
+function imginc(){
+imgstage += 1;
+}
+
+function decinc(){
+imgstage -= 1;
+}
+
+setInterval(()=>{
+console.log(imgstage);
+},1);
