@@ -86,3 +86,5 @@ function update() {
     }
     console.log(imagenumber);
 }
+
+setInterval(update,1);
